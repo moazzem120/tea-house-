@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
     <title>Tea House</title>
   </head>
   <body>
+<main class="max-w-screen-xl mx-auto px-16">
+    <!-- START HEADER SECTION  -->
 
-   <!-- START HEADER SECTION  -->
 
-
-<section class="max-w-5xl mx-auto p-10">
-  <div class="flex">
+<section">
+  <div class="flex py-20">
     <div>
       <h1 class="text-5xl font-bold text-[#1C1C1C]">It's good <br>
         tea time at The <br> Tea House</h1>
@@ -57,7 +59,7 @@
     <!-- start product section  -->
 
 
-    <section class=" max-w-5xl mx-auto p-20">
+    <section class="">
       <div class="text-center p-5">
         <h1 class="text-4xl font-bold text-[#1C1C1C]">Our Featured Products</h1>
         <p class="text-[#777777] pt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -65,7 +67,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-4 p-20 gap-10">
         <div class="flex justify-center items-center">
           <div class="text-center">
-            <img class="bg-[#F4F4F4] rounded-lg" src="images/tea-1.png" alt="">
+            <img class="bg-[#F4F4F4] rounded-lg ml-5" src="images/tea-1.png" alt="">
           <h1 class="text-xl font-bold pt-5">Milk Tea</h1>
           <p class="text-sm">Creamer could be <br> replaced by fresh milk</p>
           </div>
@@ -97,27 +99,37 @@
       <!-- start green tea section  -->
 
 
-                     <section class="max-w-5xl mx-auto">
-                      <div class="flex justify-between">
-                        <div>
+                     <section class="">
+                      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 my-5 gap-5">
                           <!-- img  -->
-                           <button></button>
-                           <img src="images/fresh-1.png" alt="">
-                           <img src="images/fresh-2.png" alt="">
-                           <button></button>
+                          <div class="h-40 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
+                          <div class="bg-orange-50 rounded-xl row-span-2">
+                            <img class="mx-auto my-5" src="images/fresh-1.png" alt="">
+                          </div>
+                          <div class="bg-orange-50 rounded-xl row-span-2">
+                            <img class="mx-auto  my-5" src="images/fresh-2.png" alt="">
+                          </div>
+                          <div class="h-40 bg-gradient-to-r from-red-100 to-red-50 rounded-xl "></div>
                            
                         </div>
-                        <div>
-                          <h1 class="text-4xl font-bold">
+                        <div class="gap-10 py-20">
+                          <div><h1 class="text-5xl font-bold">
                             Great Tea, Freshly Presented
                           </h1>
-                          <p class="text-sm">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
                           <br>
-                          <h2 class="text-xl font-bold">Unique Taste</h2>
-                          <p class="text-sm">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                          <p class="text-sm">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p></div>
                           <br>
-                          <h3 class="text-xl font-bold">Premium Quality</h3>
-                          <p class="text-sm">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                          <br> 
+                          <br>
+                          <div><h2 class="text-2xl font-bold">Unique Taste</h2>
+                            <p class="text-sm">A Unique and different style from other teapots gives a luxurious and minimalist impression</p></div>
+                            <br>
+                            <br>
+                            <br>
+                          <br>
+                         <div> <h3 class="text-2xl font-bold">Premium Quality</h3>
+                          <p class="text-sm">Premium Quality that makes tea more elegant and more durable when you use it.</p></div>
                         </div>
                       </div>
                      </section>
@@ -127,14 +139,30 @@
 
       <!-- start meet our teem section  -->
 
-<div></div>
+        <section>
+          <div class="h-auto bg-gradient-to-r from-orange-500 to-red-500 grid grid-cols-1 lg:grid-cols-2 px-7 md:px-16">
+
+                 <div>
+                  <!-- contain  -->
+                   <h1 class="text-5xl font-bold">Meet Our Super Clients</h1>
+                   <br>
+                   <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                   <br>
+                   <button class="h-14 w-28 rounded-xl text-orange-800 bg-white">Show All</button>
+                 </div>
+                <div>
+                    <!-- img  -->
+                </div>
+               
+          </div>
+        </section>
 
       <!-- end neet our teem  -->
 
       <!-- start news and event section  -->
 
 <section>
-  <div class="max-w-5xl mx-auto ">
+  <div class=" ">
        <div class="text-center p-10">
         <!-- contant section  -->
          <h1 class="text-5xl font-bold">News & Events </h1>
@@ -180,7 +208,7 @@
       <!-- start footer section  -->
 
 <section>
- <div  class=" mx-w-5xl mx-auto w-3/4 bg-[#ff8838a6] p-20">
+ <div  class=" bg-[#ff8838a6] p-20">
   <div class="flex justify-around">
     <div>
       <img src="images/cup.png" alt="">
@@ -190,7 +218,7 @@
       <button  class="flex bg-gradient-to-r from-[#FF8938] to-[#FF0000] py-2 px-2 rounded-lg">Get Started</button>
     </div>
   </div>
-  <div class="max-w-5xl mx-auto flex justify-between p-20">
+  <div class=" flex justify-between p-20">
    <div class="">
     <h1 class="text-xl font-bold">Quick Links</h1>
    <ul  class=" text-[#494949]">
@@ -228,5 +256,7 @@
 </section>
 
       <!-- end footer section  -->
+</main>
+ 
   </body>
 </html>
